@@ -1,0 +1,98 @@
+.container {
+  width: 100%;
+  /* height: 170px; */
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+  box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+  margin: 15px;
+}
+
+.wrapper {
+  padding: 10px;
+}
+
+.postTop {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.postUser {
+  display: flex;
+  align-items: center;
+  width: 95%;
+}
+
+.profileImg {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  object-fit: cover;
+  /* margin-right: 10px; */
+  border-width: 2px;
+  border-color: black;
+  border-style: solid;
+  margin-left: 10px;
+}
+
+.profileName {
+  font-weight: 550;
+  font-size: 20px;
+  /* padding: 10px; */
+  margin: 0 10px;
+}
+
+.postDate {
+  font-size: 10px;
+  align-items: left;
+}
+
+.postMore {
+  cursor: pointer;
+  width: 5%;
+}
+
+.postInfo {
+  margin: 10px;
+}
+
+.postImg {
+  width: 100%;
+}
+
+.intraction {
+  align-items: center;
+  display: flex;
+  width: 100%;
+  height: 25px;
+}
+
+.intractionLeft {
+  align-items: center;
+  display: flex;
+  width: 90%;
+  cursor: pointer;
+  padding-left: 10px;
+}
+
+.comment {
+  margin-left: 10px;
+}
+
+.commentText {
+  margin-left: 10px;
+}
+.loveIcon {
+  height: 25px;
+  cursor: pointer;
+  /* width: 25px; */
+  border-radius: 50%;
+}
+
+.intractionRight {
+  width: 10%;
+  align-items: center;
+  display: flex;
+  cursor: pointer;
+  padding-right: 10px;
+}

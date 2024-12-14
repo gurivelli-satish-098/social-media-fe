@@ -1,0 +1,76 @@
+.container {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  top: 0;
+  position: sticky;
+  background-color: #1877f2;
+}
+
+.left {
+  flex: 30%;
+}
+
+.logo {
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 24px;
+  margin-left: 20px;
+  color: white;
+}
+
+.center {
+  flex: 40%;
+  height: 30px;
+  width: 100%;
+  align-items: center;
+  display: inline-flex;
+  background-color: white;
+  border-radius: 30px;
+}
+
+.input {
+  width: 70%;
+  border: none;
+}
+.input:focus {
+  outline: none;
+}
+
+.searchIcon {
+  font-size: 24px !important;
+  margin-left: 10px;
+}
+
+.right {
+  flex: 30%;
+  display: flex;
+}
+
+.space {
+  flex: 60%;
+}
+
+.icons {
+  /* flex: 40%; */
+  justify-content: space-between;
+}
+
+.notification {
+  font-weight: bold;
+  background-color: white;
+  border-radius: 50%;
+  font-size: 30px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.person {
+  font-weight: bold;
+  background-color: white;
+  border-radius: 50%;
+  font-size: 30px;
+  cursor: pointer;
+  margin-right: 10px;
+}
